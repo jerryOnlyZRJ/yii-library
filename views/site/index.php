@@ -51,3 +51,5 @@ $this->title = 'My Yii Application';
 
     </div>
 </div>
+
+<script>window.location.href='/?r=book';</script>;
