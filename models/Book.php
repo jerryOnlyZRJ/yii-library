@@ -41,11 +41,11 @@ class Book extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-            'name' => 'Name',
-            'author' => 'Author',
-            'date' => 'Date',
-            'score' => 'Score',
+            'id' => '图书ID',
+            'name' => '书名',
+            'author' => '作者',
+            'date' => '出版日期',
+            'score' => '评分',
         ];
     }
 }
